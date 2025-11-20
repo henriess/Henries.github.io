@@ -7,6 +7,7 @@ nav_order: 3
 
 **Problem Links:**  
 [DMOJ Problem Link](https://dmoj.ca/problem/apio23p1)
+
 [Codebreaker Problem Link](https://codebreaker.xyz/problem/cyberland_apio23)
 
 
