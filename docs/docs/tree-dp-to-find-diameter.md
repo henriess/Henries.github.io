@@ -8,15 +8,15 @@ nav_order: 3
 This is my first post after a gruelling A-Level period 😭.  
 Unfortunately, I don't find DP on trees trivial, so this post is mainly to teach how it works.
  
-For every node ## `i`, compute the largest distance from ##`i` to any other node in the tree.
+For every node `i`, compute the largest distance from `i` to any other node in the tree.
 
 To do this, we maintain 2 dp arrays:
 
 ## `down[i]`
-The distance from node \( i \) to the **farthest node in its own subtree**.
+The distance from node `i` to the **farthest node in its own subtree**.
 
 ## `up[i]`
-The distance from node \( i \) to the **farthest node *outside* its subtree**.
+The distance from node `i` to the **farthest node *outside* its subtree**.
 
 Once we know both, the answer for a node is simply:
 
