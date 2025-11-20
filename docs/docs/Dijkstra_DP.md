@@ -6,7 +6,7 @@ nav_order: 3
 # Dijkstra DP
 
 **Problem Links:**  
-[Problem Link](https://codebreaker.xyz/problem/cyberland_apio23)
+(https://codebreaker.xyz/problem/cyberland_apio23)
 
 
 A simple dijkstra would be insufficient as states would be needed to track the number of divide by 2 abilities used.
