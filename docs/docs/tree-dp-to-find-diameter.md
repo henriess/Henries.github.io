@@ -12,10 +12,10 @@ For every node \( i \), compute the largest distnance from \( i \) to any other 
 
 To do this, we maintain 2 dp arrays:
 
-### `down[i]`
+## `down[i]`
 The distance from node \( i \) to the **farthest node in its own subtree**.
 
-### `up[i]`
+## `up[i]`
 The distance from node \( i \) to the **farthest node *outside* its subtree**.
 
 Once we know both, the answer for a node is simply:
@@ -26,7 +26,7 @@ Once we know both, the answer for a node is simply:
 
 ---
 
-# ## 1. Computing `down[]` — bottom-up DFS
+## 1. Computing `down[]` — bottom-up DFS
 
 `down[i]` is easy to compute.  
 For each child \( x \), the longest path from \( i \) downwards is:
