@@ -8,7 +8,7 @@ nav_order: 3
 This is my first post after a gruelling A-Level period 😭.  
 Unfortunately, I don't find DP on trees trivial, so this post is mainly to teach how it works.
  
-For every node \( i \), compute the largest distnance from \( i \) to any other node in the tree.
+For every node ## `i`, compute the largest distance from ##`i` to any other node in the tree.
 
 To do this, we maintain 2 dp arrays:
 
@@ -46,7 +46,7 @@ void dfs(long long u, long long p) {
         down1[u] = max(down1[u], down1[x] + 1);
     }
 }
-
+```
 ## 2. Computing `up[]` — rerooting (top-down DP)
 
 The `up` array is more unintuitive than `down`.  
@@ -114,3 +114,4 @@ void dfs2(long long u,long long p) { // rerooting dfs
         dfs2(x,u);
     }
 }
+```
