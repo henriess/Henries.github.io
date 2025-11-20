@@ -17,10 +17,11 @@ Let current node be `x`.
 Let previous node be `u`.  
 
 ---
+`dist[x][k]` represents the minimum cost to reach node `x` after using `k` divide operations.
 
 ## 1. If the country has no special ability
 
-`dist}[x][k] = dist}[u][k] + edge_weight`
+`dist[x][k] = dist}[u][k] + edge_weight`
 
 ## 2. If the country has a divide-by-2 ability
 
