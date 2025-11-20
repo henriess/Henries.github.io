@@ -1,10 +1,8 @@
 title: "Henry's Blog"
 description: "Math & Competitive Programming Notes"
 
-# Use Just the Docs
 remote_theme: just-the-docs/just-the-docs
 
-# Required for GitHub Pages
 plugins:
   - jekyll-remote-theme
 
@@ -14,7 +12,6 @@ baseurl: ""
 just_the_docs:
   custom_js:
     - assets/js/custom.js
-
   math: true
 
 
