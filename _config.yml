@@ -1,6 +1,6 @@
 title: Henry’s Blog
 description: "Math and competitive programming notes"
-theme: minima
+theme: jekyll-theme-slate
 
 url: "https://henriess.github.io"
 baseurl: ""
