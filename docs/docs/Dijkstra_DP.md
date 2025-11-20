@@ -6,6 +6,7 @@ nav_order: 3
 # Dijkstra DP
 
 **Problem Links:**  
+[DMOJ Problem Link](https://dmoj.ca/problem/apio23p1)
 (https://codebreaker.xyz/problem/cyberland_apio23)
 
 
