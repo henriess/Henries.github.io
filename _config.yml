@@ -10,5 +10,10 @@ plugins:
 
 url: "https://henriess.github.io"
 baseurl: ""
+
 just_the_docs:
+  custom_js:
+    - assets/js/custom.js
   math: true
+
+
